@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(181, 255, 255);
+}
+.grid{
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cols{
+    margin: 1px;
+    min-width: 85px;
+    max-width: 85px;
+    min-height: 85px;
+    max-height: 85px;
+    background-color: green;
+    /* text-align: center; */
+}
+.white{
+    background-color: wheat;
+}
+.black{
+    background-color: darkblue;
+}
+.cols:hover{
+    background-color: yellow;
+}
+.clicked{
+    background-color: tomato;
+}
+.p1{
+    color:white;
+}
+.p2{
+    color:black;
+}
+.whitepawn{
+    content:url("jovinpic.jpg");
+    padding:5px;
+}
+.blackpawn{
+    content:url("umer.jpg");
+    padding:5px;
+}
+.whiterook{
+    content:url("haris.png");
+    padding:5px;
+}
+.blackrook{
+    content:url("ibrahim.png");
+    padding:5px;
+}
+.whitebishop{
+    content:url("rahim.png");
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.blackbishop{
+    content:url("arsam.png");
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.whitehorse{
+    content:url("walkda.png");
+    padding:5px;
+}
+.blackhorse{
+    content:url("yaan.jpg");
+    padding:5px;
+}
+.whitequeen{
+    content:url("hotty.png");
+    padding:5px;
+}
+.blackqueen{
+    content:url("sado.png");
+    padding:5px;
+}
+.blackking{
+    content:url("ahad.jpg");
+    padding:5px; 
+}
+.whiteking{
+    content:url("jahiem.png");
+    padding:5px; 
+}
